@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bulma tiles</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css" integrity="sha256-ujE/ZUB6CMZmyJSgQjXGCF4sRRneOimQplBVLu8OU5w=" crossorigin="anonymous" />
+</head>
+<body>
+<section class="hero is-primary">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title">
+                Ligato Components Tiles
+            </h1>
+            <h2 class="subtitle">
+                with buttons
+            </h2>
+        </div>
+    </div>
+</section>
+<br/>
+<div class="tile is-ancestor">
+    <div class="tile is-12">
+        <div class="tile">
+            <div class="tile is-parent is-4">
+                <article class="tile is-child box">
+                    <p>Connection: Data Store</p>
+                    <div>
+                        <pre>
+                            <code>
+cn-infra/db/keyval
+├── bolt
+├── redis
+├── consul
+├── etcd
+└── filedb
+...
+                           </code>
+                        </pre>
+                    </div>
+                    <div style="text-align: center">
+                        <a href="https://github.com/contiv/vpp/blob/master/docs/setup/IPV6.md"class="button is-link">test button</a>
+                    </div>
+                </article>
+            </div>
+            <div class="tile is-parent is-vertical is-4">
+                <article class="tile is-child box">
+                    <p>Infra: Health Check</p>
+                    <div>
+                        <pre>
+                            <code>
+cn-infra/health
+├── probe
+└── statuscheck
+...
+                            </code>
+                        </pre>
+                    </div>
+                </article>
+            </div>
+            <div class="tile is-parent is-4">
+                <article class="tile is-child box">
+                    <p>RPC</p>
+                    <div>
+                        <pre>
+                            <code>
+cn-infra/rpc
+├── grpc
+├── prometheus
+└── rest
+...
+                           </code>
+                        </pre>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</div>
+
+---
+
+<div class="tile is-ancestor">
+    <div class="tile is-12">
+        <div class="tile">
+            <div class="tile is-parent is-4">
+                <article class="tile is-child box">
+                    <p>Infra: Process Management</p>
+                    <div>
+                        <pre>
+                            <code>
+cn-infra/exec
+├── processmanager
+└── supervisor
+...
+                           </code>
+                        </pre>
+                    </div>
+                </article>
+            </div>
+            <div class="tile is-parent is-vertical is-4">
+                <article class="tile is-child box">
+                    <p>Infra: Logging</p>
+                    <div>
+                        <pre>
+                            <code>
+cn-infra/logging
+├── logmanager
+├── logrus
+└── measure
+...
+                            </code>
+                        </pre>
+                    </div>
+                </article>
+            </div>
+            <div class="tile is-parent is-4">
+                <article class="tile is-child box">
+                    <p>Infra: Messaging</p>
+                    <div>
+                        <pre>
+                            <code>
+cn-infra/messaging
+└── kafka
+...
+                           </code>
+                        </pre>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="columns">
+    <div class="column is-one-third">
+        <div style="text-align: center">
+            <a href="https://github.com/contiv/vpp/blob/master/docs/setup/IPV6.md"class="button is-link">IPv6</a>
+        </div>
+    </div>
+    <div class="column">
+        <div style="text-align: center">
+            <a href="https://github.com/contiv/vpp/blob/master/docs/setup/SRV6.md"class="button is-link">SRv6</a>
+        </div>
+    </div>
+    <div class="column">
+        <div style="text-align: center">
+            <a href="https://github.com/contiv/vpp/tree/master/k8s/examples/sfc"class="button is-link">SFC</a>
+        </div>
+    </div>
+</div>
