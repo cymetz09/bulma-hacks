@@ -5,10 +5,3 @@ newfile x
 newfile x
 
 
-newfile 9
-newfile 9
-
-xxx
-xxx
-xxx
-xxx
